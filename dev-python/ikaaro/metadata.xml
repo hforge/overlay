@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <herd>no-herd</herd>
+  <maintainer>
+    <name>J. David Ibáñez</name>
+    <email>jdavid@itaapy.com</email>
+  </maintainer>
+  <upstream>
+    <maintainer status="active">
+      <name>J. David Ibáñez</name>
+      <email>jdavid@itaapy.com</email>
+    </maintainer>
+    <doc lang="en">http://docs.hforge.org/ikaaro/</doc>
+    <bugs-to>http://bugs.hforge.org/</bugs-to>
+    <remote-id type="freshmeat">ikaaro</remote-id>
+    <remote-id type="pypi">ikaaro</remote-id>
+  </upstream>
+  <use>
+  </use>
+</pkgmetadata>

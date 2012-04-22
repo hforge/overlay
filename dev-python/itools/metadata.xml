@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <herd>no-herd</herd>
+  <maintainer>
+    <name>J. David Ibáñez</name>
+    <email>jdavid@itaapy.com</email>
+  </maintainer>
+  <upstream>
+    <maintainer status="active">
+      <name>J. David Ibáñez</name>
+      <email>jdavid@itaapy.com</email>
+    </maintainer>
+    <doc lang="en">http://docs.hforge.org/itools/</doc>
+    <bugs-to>http://bugs.hforge.org/</bugs-to>
+    <remote-id type="freshmeat">python-itools</remote-id>
+    <remote-id type="pypi">itools</remote-id>
+  </upstream>
+  <use>
+    <flag name="database">Enables the itools.database package.</flag>
+    <flag name="http">Enables the itools.http package, which provides a
+    Web server (requires <pkg>net-libs/libsoup </pkg>).</flag>
+    <flag name="matplotlib">Allows the ipkg-quality.py script to generate
+    graphs.</flag>
+    <flag name="office">Enables indexing of PDF, XLS and DOC files.</flag>
+    <flag name="pdf">Enables the PDF Markup Language (PML), requires
+    <pkg>dev-python/reportlab</pkg>.</flag>
+    <flag name="svg">Adds support for SVG (Scalable Vector Graphics).</flag>
+  </use>
+</pkgmetadata>
+
