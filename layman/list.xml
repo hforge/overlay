@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<layman>
+  <overlay type="git"
+    src="git://github.com/hforge/overlay.git"
+    contact="jdavid.ibp@gmail.com"
+    name="hforge-overlay">
+
+    <description>HForge.org Gentoo Overlay</description>
+  </overlay>
+</layman>
