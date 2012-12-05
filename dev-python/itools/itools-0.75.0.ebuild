@@ -8,7 +8,7 @@ inherit distutils python
 
 DESCRIPTION="General purpose Python library"
 HOMEPAGE="http://www.hforge.org/itools"
-SRC_URI="http://download.hforge.org/itools/0.62/${P}.tar.gz"
+SRC_URI="http://download.hforge.org/itools/0.75/${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -22,7 +22,7 @@ DEPEND="
   >=dev-python/pygobject-2.18
   >=dev-python/pygit2-0.17
   >=dev-python/imaging-1.1.6
-  database? ( dev-libs/xapian-bindings[python] )
+  database? ( dev-libs/xapian-bindings[python] sys-apps/file[python] )
   http? ( >=net-libs/libsoup-2.28 dev-python/pytz )
   matplotlib? ( >=dev-python/matplotlib-0.91 )
   pdf? ( >=dev-python/reportlab-2.3 )
