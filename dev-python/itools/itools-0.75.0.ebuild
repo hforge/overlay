@@ -19,7 +19,7 @@ DEPEND="
   >=dev-vcs/git-1.7
   >=dev-libs/glib-2.20
   >=dev-util/pkgconfig-0.23
-  >=dev-python/pygobject-2.18
+  dev-python/pygobject:2
   >=dev-python/pygit2-0.17
   >=dev-python/imaging-1.1.6
   database? ( dev-libs/xapian-bindings[python] sys-apps/file[python] )
