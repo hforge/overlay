@@ -21,7 +21,7 @@ DEPEND="
   >=dev-util/pkgconfig-0.23
   dev-python/pygobject:2
   >=dev-python/pygit2-0.19.1
-  virtual/python-imaging
+  dev-python/pillow
   database? ( dev-libs/xapian-bindings[python] sys-apps/file[python] )
   http? ( >=net-libs/libsoup-2.28 dev-python/pytz )
   matplotlib? ( >=dev-python/matplotlib-0.91 )
