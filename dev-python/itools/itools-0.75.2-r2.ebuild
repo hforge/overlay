@@ -22,7 +22,7 @@ RDEPEND="
   >=dev-vcs/git-1.7[${PYTHON_USEDEP}]
   >=dev-libs/glib-2.20[${PYTHON_USEDEP}]
   >=dev-util/pkgconfig-0.23
-  dev-python/pygobject[${PYTHON_USEDEP}]
+  <dev-python/pygobject-3[${PYTHON_USEDEP}]
   >=dev-python/pygit2-0.19.1[${PYTHON_USEDEP}]
   dev-python/pillow[${PYTHON_USEDEP}]
   database? ( dev-libs/xapian-bindings[${PYTHON_USEDEP}] sys-apps/file[${PYTHON_USEDEP}] )
