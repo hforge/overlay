@@ -10,7 +10,6 @@ inherit distutils-r1
 
 DESCRIPTION="General purpose Python library"
 HOMEPAGE="http://www.hforge.org/itools"
-#SRC_URI="https://pypi.python.org/packages/source/i/itools/${P}.tar.gz"
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-3"
@@ -20,6 +19,7 @@ IUSE="database http matplotlib office pdf svg"
 
 RDEPEND="
   ${PYTHON_DEPS}
+  dev-python/pip
   >=dev-vcs/git-1.7[${PYTHON_USEDEP}]
   >=dev-libs/glib-2.20[${PYTHON_USEDEP}]
   >=dev-util/pkgconfig-0.23
