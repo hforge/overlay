@@ -10,7 +10,8 @@ inherit distutils-r1
 
 DESCRIPTION="General purpose Python library"
 HOMEPAGE="http://www.hforge.org/itools"
-SRC_URI="https://pypi.python.org/packages/source/i/itools/${P}.tar.gz"
+#SRC_URI="https://pypi.python.org/packages/source/i/itools/${P}.tar.gz"
+SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -23,7 +24,7 @@ RDEPEND="
   >=dev-libs/glib-2.20[${PYTHON_USEDEP}]
   >=dev-util/pkgconfig-0.23
   <dev-python/pygobject-3[${PYTHON_USEDEP}]
-  >=dev-python/pygit2-0.19.1[${PYTHON_USEDEP}]
+  >=dev-python/pygit2-0.24.2[${PYTHON_USEDEP}]
   dev-python/pillow[${PYTHON_USEDEP}]
   database? ( dev-libs/xapian-bindings[${PYTHON_USEDEP}] sys-apps/file[${PYTHON_USEDEP}] )
   http? ( >=net-libs/libsoup-2.28 dev-python/pytz[${PYTHON_USEDEP}] )
