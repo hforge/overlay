@@ -21,7 +21,7 @@ RDEPEND="
   ${PYTHON_DEPS}
   dev-libs/glib
   dev-python/pip
-  >=dev-vcs/git-1.7[${PYTHON_USEDEP}]
+  dev-vcs/git
   >=dev-util/pkgconfig-0.23
   <dev-python/pygobject-3[${PYTHON_USEDEP}]
   >=dev-python/pygit2-0.24.2[${PYTHON_USEDEP}]
